@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="167165258" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="1504177304" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DPAS-102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email />
@@ -12,8 +12,8 @@
     </param.icons>
     <param.summary />
     <param.description>102实验室步态数据处理、数据分析软件</param.description>
-    <param.screenshot>C:\Users\dell\AppData\Local\Temp\tp254b9cfb_f632_4656_8ecf_fee2e8acffb4.jpg</param.screenshot>
-    <param.version>6.0</param.version>
+    <param.screenshot>C:\Users\dell\AppData\Local\Temp\tpf6cd3241_c53b_42e2_945d_5fec60ac755c.jpg</param.screenshot>
+    <param.version>6.1</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -34,50 +34,49 @@
       <file>${PROJECT_ROOT}\DPAS_for_102Lab.mlapp</file>
     </fileset.main>
     <fileset.depfun>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\colorData.mat</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\colorName.mat</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\DPAS_for_102Lab.mlapp</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\1_refresh.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\add (1).png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\album.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\apps.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\Arrow, left, back.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\Arrow, right, next (1).png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\BarChart.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\box-plot.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\caret-down.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\caret-up.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\clear.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\color_Change.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\delete_fill.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\divide.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\edit-fill.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\edit.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\equal-box.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\extract.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\file (1).png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\fitting.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\home (1).png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\line chart.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\list.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\merge.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\minus-square.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\plus-circle-fill.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\process.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\remove-sign.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\rename.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\Right Arrow.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\save1.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\search1.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\select.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\square.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\steps.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\table-row-remove.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\un-Process-fill.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\undo.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\images\错.png</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\sim_grf.mot</file>
-      <file>C:\Users\dell\Documents\MATLAB\Add-Ons\Apps\DPAS102Lab\sim_kine.sto</file>
+      <file>${PROJECT_ROOT}\colorData.mat</file>
+      <file>${PROJECT_ROOT}\colorName.mat</file>
+      <file>${PROJECT_ROOT}\images\1_refresh.png</file>
+      <file>${PROJECT_ROOT}\images\add (1).png</file>
+      <file>${PROJECT_ROOT}\images\album.png</file>
+      <file>${PROJECT_ROOT}\images\apps.png</file>
+      <file>${PROJECT_ROOT}\images\Arrow, left, back.png</file>
+      <file>${PROJECT_ROOT}\images\Arrow, right, next (1).png</file>
+      <file>${PROJECT_ROOT}\images\BarChart.png</file>
+      <file>${PROJECT_ROOT}\images\box-plot.png</file>
+      <file>${PROJECT_ROOT}\images\caret-down.png</file>
+      <file>${PROJECT_ROOT}\images\caret-up.png</file>
+      <file>${PROJECT_ROOT}\images\clear.png</file>
+      <file>${PROJECT_ROOT}\images\color_Change.png</file>
+      <file>${PROJECT_ROOT}\images\delete_fill.png</file>
+      <file>${PROJECT_ROOT}\images\divide.png</file>
+      <file>${PROJECT_ROOT}\images\edit-fill.png</file>
+      <file>${PROJECT_ROOT}\images\edit.png</file>
+      <file>${PROJECT_ROOT}\images\equal-box.png</file>
+      <file>${PROJECT_ROOT}\images\extract.png</file>
+      <file>${PROJECT_ROOT}\images\file (1).png</file>
+      <file>${PROJECT_ROOT}\images\fitting.png</file>
+      <file>${PROJECT_ROOT}\images\home (1).png</file>
+      <file>${PROJECT_ROOT}\images\line chart.png</file>
+      <file>${PROJECT_ROOT}\images\list.png</file>
+      <file>${PROJECT_ROOT}\images\merge.png</file>
+      <file>${PROJECT_ROOT}\images\minus-square.png</file>
+      <file>${PROJECT_ROOT}\images\plus-circle-fill.png</file>
+      <file>${PROJECT_ROOT}\images\process.png</file>
+      <file>${PROJECT_ROOT}\images\remove-sign.png</file>
+      <file>${PROJECT_ROOT}\images\rename.png</file>
+      <file>${PROJECT_ROOT}\images\Right Arrow.png</file>
+      <file>${PROJECT_ROOT}\images\save1.png</file>
+      <file>${PROJECT_ROOT}\images\search1.png</file>
+      <file>${PROJECT_ROOT}\images\select.png</file>
+      <file>${PROJECT_ROOT}\images\square.png</file>
+      <file>${PROJECT_ROOT}\images\steps.png</file>
+      <file>${PROJECT_ROOT}\images\table-row-remove.png</file>
+      <file>${PROJECT_ROOT}\images\un-Process-fill.png</file>
+      <file>${PROJECT_ROOT}\images\undo.png</file>
+      <file>${PROJECT_ROOT}\images\错.png</file>
+      <file>${PROJECT_ROOT}\sim_grf.mot</file>
+      <file>${PROJECT_ROOT}\sim_kine.sto</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
