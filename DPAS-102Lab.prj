@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3170557000" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="4227595042" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DPAS-102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
@@ -11,7 +11,11 @@
       <file>${PROJECT_ROOT}\DPAS-102Lab_resources\icon_16.png</file>
     </param.icons>
     <param.summary />
-    <param.description>&lt;b&gt;v6.4&lt;/b&gt;
+    <param.description>&lt;b&gt;v6.5&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;调整步态分割的最小步数&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;支持一键保存fig，png，eps&lt;/li&gt;&lt;/ul&gt;
+
+&lt;b&gt;v6.4&lt;/b&gt;
 &lt;ul&gt;&lt;li&gt;变量变换后自动重新process&lt;/li&gt;&lt;/ul&gt;
 &lt;ul&gt;&lt;li&gt;支持多选方式添加class&lt;/li&gt;&lt;/ul&gt;
 
@@ -30,8 +34,8 @@
 &lt;ul&gt;&lt;li&gt;支持变量归一化&lt;/li&gt;&lt;/ul&gt;
 &lt;ul&gt;&lt;li&gt;支持数据合并&lt;/li&gt;&lt;/ul&gt;
 &lt;ul&gt;&lt;li&gt;支持数据分割&lt;/li&gt;&lt;/ul&gt;</param.description>
-    <param.screenshot>C:\Users\dell\AppData\Local\Temp\tp2caf08a3_1155_4867_9df5_b2fa5bfdf901.jpg</param.screenshot>
-    <param.version>6.4</param.version>
+    <param.screenshot />
+    <param.version>6.5</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -41,6 +45,7 @@
     <unset>
       <param.company />
       <param.summary />
+      <param.screenshot />
       <param.products.name />
       <param.products.id />
       <param.products.version />
