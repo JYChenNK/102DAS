@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="4227595042" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="871243302" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DPAS-102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
@@ -11,9 +11,24 @@
       <file>${PROJECT_ROOT}\DPAS-102Lab_resources\icon_16.png</file>
     </param.icons>
     <param.summary />
-    <param.description>&lt;b&gt;v6.5&lt;/b&gt;
+    <param.description>&lt;b&gt;v6.9&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;修复数据合并BUG&lt;/li&gt;&lt;/ul&gt;
+
+&lt;b&gt;v6.8&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;增加Std特征用于分析稳定性&lt;/li&gt;&lt;/ul&gt;
+
+&lt;b&gt;v6.7&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;增加绘制足底压力曲线&lt;/li&gt;&lt;/ul&gt;
+
+&lt;b&gt;v6.6&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;增加绘制频响曲线&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;增加绘制阶跃曲线&lt;/li&gt;&lt;/ul&gt;
+
+&lt;b&gt;v6.5&lt;/b&gt;
 &lt;ul&gt;&lt;li&gt;调整步态分割的最小步数&lt;/li&gt;&lt;/ul&gt;
 &lt;ul&gt;&lt;li&gt;支持一键保存fig，png，eps&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;修复步态分割Bug&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;调整每步数据点个数为101&lt;/li&gt;&lt;/ul&gt;
 
 &lt;b&gt;v6.4&lt;/b&gt;
 &lt;ul&gt;&lt;li&gt;变量变换后自动重新process&lt;/li&gt;&lt;/ul&gt;
@@ -35,7 +50,7 @@
 &lt;ul&gt;&lt;li&gt;支持数据合并&lt;/li&gt;&lt;/ul&gt;
 &lt;ul&gt;&lt;li&gt;支持数据分割&lt;/li&gt;&lt;/ul&gt;</param.description>
     <param.screenshot />
-    <param.version>6.5</param.version>
+    <param.version>6.9</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -78,6 +93,7 @@
       <file>${PROJECT_ROOT}\images\extract.png</file>
       <file>${PROJECT_ROOT}\images\file (1).png</file>
       <file>${PROJECT_ROOT}\images\fitting.png</file>
+      <file>${PROJECT_ROOT}\images\Freq.png</file>
       <file>${PROJECT_ROOT}\images\home (1).png</file>
       <file>${PROJECT_ROOT}\images\line chart.png</file>
       <file>${PROJECT_ROOT}\images\list.png</file>
@@ -89,6 +105,7 @@
       <file>${PROJECT_ROOT}\images\rename.png</file>
       <file>${PROJECT_ROOT}\images\Right Arrow.png</file>
       <file>${PROJECT_ROOT}\images\save1.png</file>
+      <file>${PROJECT_ROOT}\images\save_figure.png</file>
       <file>${PROJECT_ROOT}\images\search1.png</file>
       <file>${PROJECT_ROOT}\images\select.png</file>
       <file>${PROJECT_ROOT}\images\square.png</file>
