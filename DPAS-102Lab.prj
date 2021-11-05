@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="871243302" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="3447236205" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DPAS-102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
@@ -11,7 +11,13 @@
       <file>${PROJECT_ROOT}\DPAS-102Lab_resources\icon_16.png</file>
     </param.icons>
     <param.summary />
-    <param.description>&lt;b&gt;v6.9&lt;/b&gt;
+    <param.description>&lt;b&gt;v6.10&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;优化界面配色&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;新增可视化绘图配色&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;新增数据处理模式（速度/精度）&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;新增绘图敞口大小设置&lt;/li&gt;&lt;/ul&gt;
+
+&lt;b&gt;v6.9&lt;/b&gt;
 &lt;ul&gt;&lt;li&gt;修复数据合并BUG&lt;/li&gt;&lt;/ul&gt;
 
 &lt;b&gt;v6.8&lt;/b&gt;
@@ -50,7 +56,7 @@
 &lt;ul&gt;&lt;li&gt;支持数据合并&lt;/li&gt;&lt;/ul&gt;
 &lt;ul&gt;&lt;li&gt;支持数据分割&lt;/li&gt;&lt;/ul&gt;</param.description>
     <param.screenshot />
-    <param.version>6.9</param.version>
+    <param.version>6.10</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -84,7 +90,48 @@
       <file>${PROJECT_ROOT}\images\caret-down.png</file>
       <file>${PROJECT_ROOT}\images\caret-up.png</file>
       <file>${PROJECT_ROOT}\images\clear.png</file>
+      <file>${PROJECT_ROOT}\images\color.png</file>
       <file>${PROJECT_ROOT}\images\color_Change.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient1.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient10.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient11.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient12.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient13.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient14.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient15.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient16.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient2.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient3.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient4.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient5.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient6.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient7.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient8.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient9.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSet1.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSet2.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSet3.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSet4.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSet5.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle1.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle10.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle11.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle12.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle13.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle14.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle15.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle16.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle2.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle3.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle4.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle5.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle6.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle7.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle8.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle9.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\Paired2_12_1.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\Spectral1.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\Step1.png</file>
       <file>${PROJECT_ROOT}\images\delete_fill.png</file>
       <file>${PROJECT_ROOT}\images\divide.png</file>
       <file>${PROJECT_ROOT}\images\divideCal.png</file>
