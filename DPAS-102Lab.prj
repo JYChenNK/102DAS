@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="618434968" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="1312216795" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DPAS-102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
@@ -11,7 +11,10 @@
       <file>${PROJECT_ROOT}\DPAS-102Lab_resources\icon_16.png</file>
     </param.icons>
     <param.summary />
-    <param.description>&lt;b&gt;v6.12&lt;/b&gt;
+    <param.description>&lt;b&gt;v6.13&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Group Plot支持数据反转&lt;/li&gt;&lt;/ul&gt;
+
+&lt;b&gt;v6.12&lt;/b&gt;
 &lt;ul&gt;&lt;li&gt;功能性修复&lt;/li&gt;&lt;/ul&gt;
 
 &lt;b&gt;v6.11&lt;/b&gt;
@@ -62,7 +65,7 @@
 &lt;ul&gt;&lt;li&gt;支持数据合并&lt;/li&gt;&lt;/ul&gt;
 &lt;ul&gt;&lt;li&gt;支持数据分割&lt;/li&gt;&lt;/ul&gt;</param.description>
     <param.screenshot />
-    <param.version>6.12</param.version>
+    <param.version>6.13</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
