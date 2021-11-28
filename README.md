@@ -1,2 +1,3 @@
-# 102DAS
+# 102Lab Gait Data Analysis Software
+
  
