@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1312216795" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="3831690619" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DPAS-102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
@@ -11,7 +11,15 @@
       <file>${PROJECT_ROOT}\DPAS-102Lab_resources\icon_16.png</file>
     </param.icons>
     <param.summary />
-    <param.description>&lt;b&gt;v6.13&lt;/b&gt;
+    <param.description>&lt;b&gt;v6.14&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;修复多选数据处理时步态划分的问题&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;修复多选数据删除&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;新增频响分析功能&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;新增绘图区域100%填充&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;优化配色按键布局&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;优化绘图按键布局&lt;/li&gt;&lt;/ul&gt;
+
+&lt;b&gt;v6.13&lt;/b&gt;
 &lt;ul&gt;&lt;li&gt;Group Plot支持数据反转&lt;/li&gt;&lt;/ul&gt;
 
 &lt;b&gt;v6.12&lt;/b&gt;
@@ -64,8 +72,8 @@
 &lt;ul&gt;&lt;li&gt;支持变量归一化&lt;/li&gt;&lt;/ul&gt;
 &lt;ul&gt;&lt;li&gt;支持数据合并&lt;/li&gt;&lt;/ul&gt;
 &lt;ul&gt;&lt;li&gt;支持数据分割&lt;/li&gt;&lt;/ul&gt;</param.description>
-    <param.screenshot />
-    <param.version>6.13</param.version>
+    <param.screenshot>${PROJECT_ROOT}\Snipaste_2021-12-09_22-39-05.png</param.screenshot>
+    <param.version>6.14</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -75,7 +83,6 @@
     <unset>
       <param.company />
       <param.summary />
-      <param.screenshot />
       <param.products.name />
       <param.products.id />
       <param.products.version />
@@ -138,9 +145,9 @@
       <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle7.png</file>
       <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle8.png</file>
       <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle9.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\Paired2_12_1.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\Spectral1.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\Step1.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\Paired12.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\Spectral11.png</file>
+      <file>${PROJECT_ROOT}\images\ColorMap\StepSeq_25.png</file>
       <file>${PROJECT_ROOT}\images\delete_fill.png</file>
       <file>${PROJECT_ROOT}\images\divide.png</file>
       <file>${PROJECT_ROOT}\images\divideCal.png</file>
