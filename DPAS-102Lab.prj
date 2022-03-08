@@ -1,79 +1,19 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3831690619" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="3037465928" file="/Users/jychen/Documents/Repos/102DAS/DPAS-102Lab.prj" location="/Users/jychen/Documents/Repos/102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DPAS-102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
     <param.company />
-    <param.icon>${PROJECT_ROOT}\DPAS-102Lab_resources\icon_24.png</param.icon>
+    <param.icon>${PROJECT_ROOT}/DPAS-102Lab_resources/icon_24.png</param.icon>
     <param.icons>
-      <file>${PROJECT_ROOT}\DPAS-102Lab_resources\icon_48.png</file>
-      <file>${PROJECT_ROOT}\DPAS-102Lab_resources\icon_24.png</file>
-      <file>${PROJECT_ROOT}\DPAS-102Lab_resources\icon_16.png</file>
+      <file>${PROJECT_ROOT}/DPAS-102Lab_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/DPAS-102Lab_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/DPAS-102Lab_resources/icon_16.png</file>
     </param.icons>
     <param.summary />
-    <param.description>&lt;b&gt;v6.14&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;修复多选数据处理时步态划分的问题&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;修复多选数据删除&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;新增频响分析功能&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;新增绘图区域100%填充&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;优化配色按键布局&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;优化绘图按键布局&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.13&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;Group Plot支持数据反转&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.12&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;功能性修复&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.11&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;修复不同步态长度的数组长度问题&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.10&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;优化界面配色&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;新增可视化绘图配色&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;新增数据处理模式（速度/精度）&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;新增绘图敞口大小设置&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.9&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;修复数据合并BUG&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.8&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;增加Std特征用于分析稳定性&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.7&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;增加绘制足底压力曲线&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.6&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;增加绘制频响曲线&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;增加绘制阶跃曲线&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.5&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;调整步态分割的最小步数&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;支持一键保存fig，png，eps&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;修复步态分割Bug&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;调整每步数据点个数为101&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.4&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;变量变换后自动重新process&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;支持多选方式添加class&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.3&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt; 新增Group Plot&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt; 新加数据平移&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.2&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;优化ColorMap按键&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;修复Bug&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.1&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;代码重构&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;支持多种背景配色&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;优化绘图界面按键分布&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;支持变量归一化&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;支持数据合并&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;支持数据分割&lt;/li&gt;&lt;/ul&gt;</param.description>
-    <param.screenshot>${PROJECT_ROOT}\Snipaste_2021-12-09_22-39-05.png</param.screenshot>
-    <param.version>6.14</param.version>
+    <param.description>102实验室步态数据处理、数据分析软件</param.description>
+    <param.screenshot>/private/var/folders/tj/kby7r__n6vldt88z3w7fpgh40000gn/T/tp7ae28bf0_f3fb_482d_97f8_ea0e9d2f11c8.jpg</param.screenshot>
+    <param.version>6.15</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -90,108 +30,107 @@
       <param.output />
     </unset>
     <fileset.main>
-      <file>${PROJECT_ROOT}\DPAS_for_102Lab.mlapp</file>
+      <file>${PROJECT_ROOT}/DPAS_for_102Lab.mlapp</file>
     </fileset.main>
     <fileset.depfun>
-      <file>${PROJECT_ROOT}\colorData.mat</file>
-      <file>${PROJECT_ROOT}\colorName.mat</file>
-      <file>${PROJECT_ROOT}\images\1_refresh.png</file>
-      <file>${PROJECT_ROOT}\images\add (1).png</file>
-      <file>${PROJECT_ROOT}\images\album.png</file>
-      <file>${PROJECT_ROOT}\images\apps.png</file>
-      <file>${PROJECT_ROOT}\images\Arrow, left, back.png</file>
-      <file>${PROJECT_ROOT}\images\Arrow, right, next (1).png</file>
-      <file>${PROJECT_ROOT}\images\BarChart.png</file>
-      <file>${PROJECT_ROOT}\images\box-plot.png</file>
-      <file>${PROJECT_ROOT}\images\caret-down.png</file>
-      <file>${PROJECT_ROOT}\images\caret-up.png</file>
-      <file>${PROJECT_ROOT}\images\clear.png</file>
-      <file>${PROJECT_ROOT}\images\color.png</file>
-      <file>${PROJECT_ROOT}\images\color_Change.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient1.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient10.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient11.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient12.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient13.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient14.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient15.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient16.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient2.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient3.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient4.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient5.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient6.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient7.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient8.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorGradient9.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSet1.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSet2.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSet3.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSet4.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSet5.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle1.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle10.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle11.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle12.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle13.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle14.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle15.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle16.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle2.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle3.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle4.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle5.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle6.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle7.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle8.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\ColorSingle9.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\Paired12.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\Spectral11.png</file>
-      <file>${PROJECT_ROOT}\images\ColorMap\StepSeq_25.png</file>
-      <file>${PROJECT_ROOT}\images\delete_fill.png</file>
-      <file>${PROJECT_ROOT}\images\divide.png</file>
-      <file>${PROJECT_ROOT}\images\divideCal.png</file>
-      <file>${PROJECT_ROOT}\images\edit-fill.png</file>
-      <file>${PROJECT_ROOT}\images\edit.png</file>
-      <file>${PROJECT_ROOT}\images\extract.png</file>
-      <file>${PROJECT_ROOT}\images\file (1).png</file>
-      <file>${PROJECT_ROOT}\images\fitting.png</file>
-      <file>${PROJECT_ROOT}\images\Freq.png</file>
-      <file>${PROJECT_ROOT}\images\home (1).png</file>
-      <file>${PROJECT_ROOT}\images\line chart.png</file>
-      <file>${PROJECT_ROOT}\images\list.png</file>
-      <file>${PROJECT_ROOT}\images\merge.png</file>
-      <file>${PROJECT_ROOT}\images\minus-square.png</file>
-      <file>${PROJECT_ROOT}\images\plus-circle-fill.png</file>
-      <file>${PROJECT_ROOT}\images\process.png</file>
-      <file>${PROJECT_ROOT}\images\remove-sign.png</file>
-      <file>${PROJECT_ROOT}\images\rename.png</file>
-      <file>${PROJECT_ROOT}\images\Right Arrow.png</file>
-      <file>${PROJECT_ROOT}\images\save1.png</file>
-      <file>${PROJECT_ROOT}\images\save_figure.png</file>
-      <file>${PROJECT_ROOT}\images\search1.png</file>
-      <file>${PROJECT_ROOT}\images\select.png</file>
-      <file>${PROJECT_ROOT}\images\square.png</file>
-      <file>${PROJECT_ROOT}\images\steps.png</file>
-      <file>${PROJECT_ROOT}\images\table-row-remove.png</file>
-      <file>${PROJECT_ROOT}\images\un-Process-fill.png</file>
-      <file>${PROJECT_ROOT}\images\undo.png</file>
-      <file>${PROJECT_ROOT}\images\错.png</file>
-      <file>${PROJECT_ROOT}\sim_grf.mot</file>
-      <file>${PROJECT_ROOT}\sim_kine.sto</file>
+      <file>${PROJECT_ROOT}/colorData.mat</file>
+      <file>${PROJECT_ROOT}/colorName.mat</file>
+      <file>${PROJECT_ROOT}/images/1_refresh.png</file>
+      <file>${PROJECT_ROOT}/images/Arrow, left, back.png</file>
+      <file>${PROJECT_ROOT}/images/Arrow, right, next (1).png</file>
+      <file>${PROJECT_ROOT}/images/BarChart.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient1.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient10.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient11.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient12.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient13.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient14.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient15.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient16.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient2.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient3.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient4.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient5.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient6.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient7.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient8.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorGradient9.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSet1.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSet2.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSet3.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSet4.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSet5.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle1.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle10.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle11.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle12.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle13.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle14.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle15.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle16.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle2.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle3.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle4.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle5.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle6.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle7.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle8.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/ColorSingle9.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/Paired12.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/Spectral11.png</file>
+      <file>${PROJECT_ROOT}/images/ColorMap/StepSeq_25.png</file>
+      <file>${PROJECT_ROOT}/images/Freq.png</file>
+      <file>${PROJECT_ROOT}/images/Right Arrow.png</file>
+      <file>${PROJECT_ROOT}/images/add (1).png</file>
+      <file>${PROJECT_ROOT}/images/album.png</file>
+      <file>${PROJECT_ROOT}/images/apps.png</file>
+      <file>${PROJECT_ROOT}/images/box-plot.png</file>
+      <file>${PROJECT_ROOT}/images/caret-down.png</file>
+      <file>${PROJECT_ROOT}/images/caret-up.png</file>
+      <file>${PROJECT_ROOT}/images/clear.png</file>
+      <file>${PROJECT_ROOT}/images/color.png</file>
+      <file>${PROJECT_ROOT}/images/color_Change.png</file>
+      <file>${PROJECT_ROOT}/images/delete_fill.png</file>
+      <file>${PROJECT_ROOT}/images/divide.png</file>
+      <file>${PROJECT_ROOT}/images/divideCal.png</file>
+      <file>${PROJECT_ROOT}/images/edit-fill.png</file>
+      <file>${PROJECT_ROOT}/images/edit.png</file>
+      <file>${PROJECT_ROOT}/images/extract.png</file>
+      <file>${PROJECT_ROOT}/images/file (1).png</file>
+      <file>${PROJECT_ROOT}/images/fitting.png</file>
+      <file>${PROJECT_ROOT}/images/home (1).png</file>
+      <file>${PROJECT_ROOT}/images/line chart.png</file>
+      <file>${PROJECT_ROOT}/images/list.png</file>
+      <file>${PROJECT_ROOT}/images/merge.png</file>
+      <file>${PROJECT_ROOT}/images/minus-square.png</file>
+      <file>${PROJECT_ROOT}/images/plus-circle-fill.png</file>
+      <file>${PROJECT_ROOT}/images/process.png</file>
+      <file>${PROJECT_ROOT}/images/remove-sign.png</file>
+      <file>${PROJECT_ROOT}/images/rename.png</file>
+      <file>${PROJECT_ROOT}/images/save1.png</file>
+      <file>${PROJECT_ROOT}/images/save_figure.png</file>
+      <file>${PROJECT_ROOT}/images/search1.png</file>
+      <file>${PROJECT_ROOT}/images/select.png</file>
+      <file>${PROJECT_ROOT}/images/square.png</file>
+      <file>${PROJECT_ROOT}/images/steps.png</file>
+      <file>${PROJECT_ROOT}/images/table-row-remove.png</file>
+      <file>${PROJECT_ROOT}/images/un-Process-fill.png</file>
+      <file>${PROJECT_ROOT}/images/undo.png</file>
+      <file>${PROJECT_ROOT}/images/错.png</file>
+      <file>${PROJECT_ROOT}/sim_grf.mot</file>
+      <file>${PROJECT_ROOT}/sim_kine.sto</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="D:\Projects\4-102DAS" name="102DAS" optional="false">D:\Projects\4-102DAS\102DAS</file>
+      <file location="/Users/jychen/Documents/Repos" name="102DAS" optional="false">/Users/jychen/Documents/Repos/102DAS</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>B:\Matlab\2019b</root>
+      <root>/Applications/Polyspace/R2019b</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
         <toolbox name="embeddedcoder" />
-        <toolbox name="gpucoder" />
         <toolbox name="fixedpoint" />
         <toolbox name="matlabhdlcoder" />
         <toolbox name="neuralnetwork" />
@@ -206,11 +145,6 @@
         <embeddedcoder>
           <enabled>true</enabled>
         </embeddedcoder>
-      </toolbox>
-      <toolbox>
-        <gpucoder>
-          <enabled>true</enabled>
-        </gpucoder>
       </toolbox>
       <toolbox>
         <fixedpoint>
@@ -234,18 +168,18 @@
       </toolbox>
     </matlab>
     <platform>
-      <unix>false</unix>
-      <mac>false</mac>
-      <windows>true</windows>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
       <win2k>false</win2k>
       <winxp>false</winxp>
       <vista>false</vista>
       <linux>false</linux>
       <solaris>false</solaris>
-      <osver>10.0</osver>
+      <osver>10.16</osver>
       <os32>false</os32>
       <os64>true</os64>
-      <arch>win64</arch>
+      <arch>maci64</arch>
       <matlab>true</matlab>
     </platform>
   </configuration>
