@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3831690619" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="2692304481" file="D:\Projects\4-102DAS\102DAS\DPAS-102Lab.prj" location="D:\Projects\4-102DAS\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DPAS-102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
@@ -11,68 +11,8 @@
       <file>${PROJECT_ROOT}\DPAS-102Lab_resources\icon_16.png</file>
     </param.icons>
     <param.summary />
-    <param.description>&lt;b&gt;v6.14&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;修复多选数据处理时步态划分的问题&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;修复多选数据删除&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;新增频响分析功能&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;新增绘图区域100%填充&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;优化配色按键布局&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;优化绘图按键布局&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.13&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;Group Plot支持数据反转&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.12&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;功能性修复&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.11&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;修复不同步态长度的数组长度问题&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.10&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;优化界面配色&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;新增可视化绘图配色&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;新增数据处理模式（速度/精度）&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;新增绘图敞口大小设置&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.9&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;修复数据合并BUG&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.8&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;增加Std特征用于分析稳定性&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.7&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;增加绘制足底压力曲线&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.6&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;增加绘制频响曲线&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;增加绘制阶跃曲线&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.5&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;调整步态分割的最小步数&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;支持一键保存fig，png，eps&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;修复步态分割Bug&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;调整每步数据点个数为101&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.4&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;变量变换后自动重新process&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;支持多选方式添加class&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.3&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt; 新增Group Plot&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt; 新加数据平移&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.2&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;优化ColorMap按键&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;修复Bug&lt;/li&gt;&lt;/ul&gt;
-
-&lt;b&gt;v6.1&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;代码重构&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;支持多种背景配色&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;优化绘图界面按键分布&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;支持变量归一化&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;支持数据合并&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;支持数据分割&lt;/li&gt;&lt;/ul&gt;</param.description>
-    <param.screenshot>${PROJECT_ROOT}\Snipaste_2021-12-09_22-39-05.png</param.screenshot>
+    <param.description>102实验室步态数据处理、数据分析软件</param.description>
+    <param.screenshot>C:\Users\dell\AppData\Local\Temp\tpd594f953_d6ae_4bc8_9f4a_ad4b3d46b550.jpg</param.screenshot>
     <param.version>6.14</param.version>
     <param.products.name />
     <param.products.id />
