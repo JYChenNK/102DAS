@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary />
     <param.description>102实验室步态数据处理、数据分析软件</param.description>
-    <param.screenshot>C:\Users\dell\AppData\Local\Temp\tpd6f611a0_8d4b_4712_beba_3685572004d9.jpg</param.screenshot>
+    <param.screenshot />
     <param.version>6.16</param.version>
     <param.products.name />
     <param.products.id />
@@ -23,6 +23,7 @@
     <unset>
       <param.company />
       <param.summary />
+      <param.screenshot />
       <param.products.name />
       <param.products.id />
       <param.products.version />
