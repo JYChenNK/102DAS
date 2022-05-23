@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="129424353" file="D:\JYChen\NKU_Jayren\102DAS\DPAS-102Lab.prj" location="D:\JYChen\NKU_Jayren\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="3406759375" file="D:\JYChen\NKU_Jayren\NK-ExAnalyst\DPAS-102Lab.prj" location="D:\JYChen\NKU_Jayren\NK-ExAnalyst" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DPAS-102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
@@ -13,13 +13,16 @@
     <param.summary />
     <param.description>102实验室步态数据处理、数据分析软件
 
+&lt;b&gt;V 6.19&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;修复无法切换绘图的BUG&lt;/li&gt;&lt;/ul&gt;
+
 &lt;b&gt;V 6.18&lt;/b&gt;
 &lt;ul&gt;&lt;li&gt;修复柱状图数据导出&lt;/li&gt;&lt;/ul&gt;
 
 &lt;b&gt;V 6.17&lt;/b&gt;
 &lt;ul&gt;&lt;li&gt;增加步态周期移位&lt;/li&gt;&lt;/ul&gt;</param.description>
     <param.screenshot />
-    <param.version>6.18</param.version>
+    <param.version>6.19</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -130,7 +133,7 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="D:\JYChen\NKU_Jayren" name="102DAS" optional="false">D:\JYChen\NKU_Jayren\102DAS</file>
+      <file location="D:\JYChen\NKU_Jayren" name="NK-ExAnalyst" optional="false">D:\JYChen\NKU_Jayren\NK-ExAnalyst</file>
     </build-deliverables>
     <workflow />
     <matlab>
