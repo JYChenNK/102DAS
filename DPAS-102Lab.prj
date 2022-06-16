@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="300545446" file="E:\JayrenRepos\102DAS\DPAS-102Lab.prj" location="E:\JayrenRepos\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="2532369026" file="E:\JayrenRepos\102DAS\DPAS-102Lab.prj" location="E:\JayrenRepos\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DPAS-102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
@@ -12,6 +12,9 @@
     </param.icons>
     <param.summary />
     <param.description>102实验室步态数据处理、数据分析软件
+
+&lt;b&gt;V 6.25&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;修改归一化为除法运算&lt;/li&gt;&lt;/ul&gt;
 
 &lt;b&gt;V 6.24&lt;/b&gt;
 &lt;ul&gt;&lt;li&gt;增加对state信号的有效性检测&lt;/li&gt;&lt;/ul&gt;
@@ -37,7 +40,7 @@
 &lt;b&gt;V 6.17&lt;/b&gt;
 &lt;ul&gt;&lt;li&gt;增加步态周期移位&lt;/li&gt;&lt;/ul&gt;</param.description>
     <param.screenshot />
-    <param.version>6.24</param.version>
+    <param.version>6.25</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
