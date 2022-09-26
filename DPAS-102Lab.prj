@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="469392451" file="E:\JayrenRepos\102DAS\DPAS-102Lab.prj" location="E:\JayrenRepos\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="1879523910" file="E:\JayrenRepos\102DAS\DPAS-102Lab.prj" location="E:\JayrenRepos\102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DPAS-102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
@@ -13,7 +13,7 @@
     <param.summary />
     <param.description>102实验室步态数据处理、数据分析软件</param.description>
     <param.screenshot />
-    <param.version>6.26</param.version>
+    <param.version>6.30</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -46,6 +46,7 @@
       <file>${PROJECT_ROOT}\images\box-plot.png</file>
       <file>${PROJECT_ROOT}\images\caret-down.png</file>
       <file>${PROJECT_ROOT}\images\caret-up.png</file>
+      <file>${PROJECT_ROOT}\images\chart-line-solid.png</file>
       <file>${PROJECT_ROOT}\images\clear.png</file>
       <file>${PROJECT_ROOT}\images\color.png</file>
       <file>${PROJECT_ROOT}\images\color_Change.png</file>
@@ -103,8 +104,8 @@
       <file>${PROJECT_ROOT}\images\list.png</file>
       <file>${PROJECT_ROOT}\images\merge.png</file>
       <file>${PROJECT_ROOT}\images\minus-square.png</file>
+      <file>${PROJECT_ROOT}\images\outline-story.png</file>
       <file>${PROJECT_ROOT}\images\plus-circle-fill.png</file>
-      <file>${PROJECT_ROOT}\images\process.png</file>
       <file>${PROJECT_ROOT}\images\remove-sign.png</file>
       <file>${PROJECT_ROOT}\images\rename.png</file>
       <file>${PROJECT_ROOT}\images\Right Arrow.png</file>
@@ -113,11 +114,11 @@
       <file>${PROJECT_ROOT}\images\search1.png</file>
       <file>${PROJECT_ROOT}\images\select.png</file>
       <file>${PROJECT_ROOT}\images\square.png</file>
-      <file>${PROJECT_ROOT}\images\steps.png</file>
       <file>${PROJECT_ROOT}\images\table-row-remove.png</file>
       <file>${PROJECT_ROOT}\images\un-Process-fill.png</file>
       <file>${PROJECT_ROOT}\images\undo.png</file>
       <file>${PROJECT_ROOT}\images\wave-square-solid.png</file>
+      <file>${PROJECT_ROOT}\images\筛选.png</file>
       <file>${PROJECT_ROOT}\images\错.png</file>
       <file>${PROJECT_ROOT}\sim_grf.mot</file>
       <file>${PROJECT_ROOT}\sim_kine.sto</file>
