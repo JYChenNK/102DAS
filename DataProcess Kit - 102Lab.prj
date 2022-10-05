@@ -1,14 +1,14 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3679829100" file="/Users/jychen/Documents/Repos/102DAS/DPAS-102Lab.prj" location="/Users/jychen/Documents/Repos/102DAS" name="DPAS-102Lab" target="target.mlapps" target-name="打包为 App">
-    <param.appname>DPAS-102Lab</param.appname>
+  <configuration build-checksum="4069814674" file="/Users/jychen/Documents/Repos/102DAS/DataProcess Kit - 102Lab.prj" location="/Users/jychen/Documents/Repos/102DAS" name="DataProcess Kit - 102Lab" target="target.mlapps" target-name="打包为 App">
+    <param.appname>DataProcess Kit - 102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
     <param.company />
-    <param.icon>${PROJECT_ROOT}/DPAS-102Lab_resources/icon_24.png</param.icon>
+    <param.icon>${PROJECT_ROOT}/DataProcess Kit - 102Lab_resources/icon_24.png</param.icon>
     <param.icons>
-      <file>${PROJECT_ROOT}/DPAS-102Lab_resources/icon_48.png</file>
-      <file>${PROJECT_ROOT}/DPAS-102Lab_resources/icon_24.png</file>
-      <file>${PROJECT_ROOT}/DPAS-102Lab_resources/icon_16.png</file>
+      <file>${PROJECT_ROOT}/DataProcess Kit - 102Lab_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/DataProcess Kit - 102Lab_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/DataProcess Kit - 102Lab_resources/icon_16.png</file>
     </param.icons>
     <param.summary />
     <param.description>102实验室步态数据处理、数据分析软件
@@ -18,7 +18,7 @@ v6.32
 
 v6.31
 - 修复数据删除Bug</param.description>
-    <param.screenshot />
+    <param.screenshot>${PROJECT_ROOT}/Snipaste_2022-10-05_13-46-58.png</param.screenshot>
     <param.version>6.32</param.version>
     <param.products.name />
     <param.products.id />
@@ -29,7 +29,6 @@ v6.31
     <unset>
       <param.company />
       <param.summary />
-      <param.screenshot />
       <param.products.name />
       <param.products.id />
       <param.products.version />
