@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2529022819" file="E:\JayrenRepos\102DAS\DataProcess Kit - 102Lab.prj" location="E:\JayrenRepos\102DAS" name="DataProcess Kit - 102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="3266521056" file="E:\JayrenRepos\102DAS\DataProcess Kit - 102Lab.prj" location="E:\JayrenRepos\102DAS" name="DataProcess Kit - 102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DataProcess Kit - 102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
@@ -13,16 +13,18 @@
     <param.summary />
     <param.description>102实验室步态数据处理、数据分析软件
 
+V6.35
+- 增加机电信号一键归一化
+V6.34
+- 优化多显示器的绘图设置
 v6.33
 - 增加使用地反力进行步态划分
-
 v6.32
 - 优化Mac端显示效果
-
 v6.31
 - 修复数据删除Bug</param.description>
     <param.screenshot>${PROJECT_ROOT}\Snipaste_2022-10-05_13-46-58.png</param.screenshot>
-    <param.version>6.33</param.version>
+    <param.version>6.35</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -112,6 +114,7 @@ v6.31
       <file>${PROJECT_ROOT}\images\list.png</file>
       <file>${PROJECT_ROOT}\images\merge.png</file>
       <file>${PROJECT_ROOT}\images\minus-square.png</file>
+      <file>${PROJECT_ROOT}\images\Normalization.png</file>
       <file>${PROJECT_ROOT}\images\outline-story.png</file>
       <file>${PROJECT_ROOT}\images\plus-circle-fill.png</file>
       <file>${PROJECT_ROOT}\images\remove-sign.png</file>
