@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1915458483" file="E:\JayrenRepos\102DAS\DataProcess Kit - 102Lab.prj" location="E:\JayrenRepos\102DAS" name="DataProcess Kit - 102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="2881312706" file="E:\JayrenRepos\102DAS\DataProcess Kit - 102Lab.prj" location="E:\JayrenRepos\102DAS" name="DataProcess Kit - 102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DataProcess Kit - 102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
@@ -12,6 +12,10 @@
     </param.icons>
     <param.summary />
     <param.description>102实验室步态数据处理、数据分析软件
+
+V6.40
+- 增加对PredSim的数据支持
+- 完成对PredSim数据的导入、处理、曲线、柱状图的测试
 
 V6.39
 - 更新阶跃相应曲线的绘制
@@ -33,7 +37,7 @@ v6.32
 v6.31
 - 修复数据删除Bug</param.description>
     <param.screenshot>${PROJECT_ROOT}\Snipaste_2022-10-05_13-46-58.png</param.screenshot>
-    <param.version>6.39</param.version>
+    <param.version>6.40</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
