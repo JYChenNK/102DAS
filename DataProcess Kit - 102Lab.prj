@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2007122399" file="E:\JayrenRepos\102DAS\DataProcess Kit - 102Lab.prj" location="E:\JayrenRepos\102DAS" name="DataProcess Kit - 102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="1698329574" file="E:\JayrenRepos\102DAS\DataProcess Kit - 102Lab.prj" location="E:\JayrenRepos\102DAS" name="DataProcess Kit - 102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DataProcess Kit - 102Lab</param.appname>
     <param.authnamewatermark>JayrenChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
@@ -13,6 +13,8 @@
     <param.summary />
     <param.description>102实验室步态数据处理、数据分析软件
 
+V6.44
+- 调整步态周期数据的插值函数
 V6.43
 -调整删除变量的多组数据选中
 
@@ -43,7 +45,7 @@ v6.32
 v6.31
 - 修复数据删除Bug</param.description>
     <param.screenshot>${PROJECT_ROOT}\Snipaste_2022-10-05_13-46-58.png</param.screenshot>
-    <param.version>6.43</param.version>
+    <param.version>6.44</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
