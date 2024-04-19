@@ -1,7 +1,7 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3122783490" file="/Users/jychen/Documents/Repos/102DAS/DataProcess Kit - 102Lab.prj" location="/Users/jychen/Documents/Repos/102DAS" name="DataProcess Kit - 102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="1812913332" file="/Users/jychen/Documents/Repos/102DAS/DataProcess Kit - 102Lab.prj" location="/Users/jychen/Documents/Repos/102DAS" name="DataProcess Kit - 102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DataProcess Kit - 102Lab</param.appname>
-    <param.authnamewatermark>JayrenChen</param.authnamewatermark>
+    <param.authnamewatermark>JYChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
     <param.company />
     <param.icon>${PROJECT_ROOT}/DataProcess Kit - 102Lab_resources/icon_24.png</param.icon>
@@ -10,48 +10,26 @@
       <file>${PROJECT_ROOT}/DataProcess Kit - 102Lab_resources/icon_24.png</file>
       <file>${PROJECT_ROOT}/DataProcess Kit - 102Lab_resources/icon_16.png</file>
     </param.icons>
-    <param.summary />
-    <param.description>102实验室步态数据处理、数据分析软件
+    <param.summary>102实验室步态数据处理与分析软件</param.summary>
+    <param.description>### v7.06
+- 由2024a降级至2023b
+- 去除smoothdata函数
 
-V6.45-V6.48
-- 优化对PredSim的数据支持
-- 优化柱状图
-- 优化群组绘图
+### v7.05
+- 调整BioMech界面的模块布局
+- 修复地反力smoothdata数据平滑的错误配置
 
-V6.44
-优化Matlab2022下的颜色错误
+### v7.02
+ - 调整频响曲线的终止频率设置(拖动改为数值输入)
 
-V6.43
--调整删除变量的多组数据选中
+### v7.01
+- 柱状图的Group窗口支持设置颜色
 
-V6.41-V6.42
-- 优化对PredSim的数据支持
-
-V6.40
-- 增加对PredSim的数据支持
-- 完成对PredSim数据的导入、处理、曲线、柱状图的测试
-
-V6.39
-- 更新阶跃相应曲线的绘制
-
-V6.38
-- 优化FFT分析的相位处理
-
-V6.36
-- 增加按照组的方式一键绘制多条曲线（自定义颜色）
-
-V6.35
-- 增加机电信号一键归一化
-V6.34
-- 优化多显示器的绘图设置
-v6.33
-- 增加使用地反力进行步态划分
-v6.32
-- 优化Mac端显示效果
-v6.31
-- 修复数据删除Bug</param.description>
-    <param.screenshot>${PROJECT_ROOT}/Snipaste_2022-10-05_13-46-58.png</param.screenshot>
-    <param.version>6.48</param.version>
+### v7.00
+- 添加BioMech界面，支持C3D和地反力导出为OpenSim支持的形式；
+- 地反力支持导出为原点力矩和COP两种形式；</param.description>
+    <param.screenshot>/private/var/folders/tj/kby7r__n6vldt88z3w7fpgh40000gn/T/tpc2223fce_6148_497b_9e0b_9ed313c652c6.jpg</param.screenshot>
+    <param.version>7.06</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -60,7 +38,6 @@ v6.31
     <param.guid>013635cc-dd11-420d-a659-2eb388b9431a</param.guid>
     <unset>
       <param.company />
-      <param.summary />
       <param.products.name />
       <param.products.id />
       <param.products.version />
@@ -71,6 +48,10 @@ v6.31
       <file>${PROJECT_ROOT}/DPAS_for_102Lab.mlapp</file>
     </fileset.main>
     <fileset.depfun>
+      <file>/Users/jychen/Documents/OpenSim/4.5/Code/Matlab/Utilities/osimTableFromStruct.m</file>
+      <file>/Users/jychen/Documents/OpenSim/4.5/Code/Matlab/Utilities/osimTableToStruct.m</file>
+      <file>/Users/jychen/Documents/OpenSim/4.5/Code/Matlab/Utilities/osimVec3FromArray.m</file>
+      <file>${PROJECT_ROOT}/OsimC3D102.m</file>
       <file>${PROJECT_ROOT}/colorData.mat</file>
       <file>${PROJECT_ROOT}/colorName.mat</file>
       <file>${PROJECT_ROOT}/images/1_refresh.png</file>
@@ -126,7 +107,6 @@ v6.31
       <file>${PROJECT_ROOT}/images/box-plot.png</file>
       <file>${PROJECT_ROOT}/images/caret-down.png</file>
       <file>${PROJECT_ROOT}/images/caret-up.png</file>
-      <file>${PROJECT_ROOT}/images/chart-line-solid.png</file>
       <file>${PROJECT_ROOT}/images/clear.png</file>
       <file>${PROJECT_ROOT}/images/color.png</file>
       <file>${PROJECT_ROOT}/images/color_Change.png</file>
@@ -168,10 +148,34 @@ v6.31
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>/Applications/MATLAB_R2022b_Beta.app</root>
+      <root>/Applications/MATLAB_R2023b.app</root>
       <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
         <toolbox name="neuralnetwork" />
       </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
       <toolbox>
         <neuralnetwork>
           <enabled>true</enabled>
@@ -187,7 +191,7 @@ v6.31
       <vista>false</vista>
       <linux>false</linux>
       <solaris>false</solaris>
-      <osver>13.2.1</osver>
+      <osver>14.4.1</osver>
       <os32>true</os32>
       <os64>false</os64>
       <arch>maci64</arch>
