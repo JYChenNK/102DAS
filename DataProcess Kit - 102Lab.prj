@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1812913332" file="/Users/jychen/Documents/Repos/102DAS/DataProcess Kit - 102Lab.prj" location="/Users/jychen/Documents/Repos/102DAS" name="DataProcess Kit - 102Lab" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="3967424419" file="/Users/jychen/Documents/Repos/102DAS/DataProcess Kit - 102Lab.prj" location="/Users/jychen/Documents/Repos/102DAS" name="DataProcess Kit - 102Lab" target="target.mlapps" target-name="打包为 App">
     <param.appname>DataProcess Kit - 102Lab</param.appname>
     <param.authnamewatermark>JYChen</param.authnamewatermark>
     <param.email>jychen@mail.nankai.edu.cn</param.email>
@@ -11,7 +11,12 @@
       <file>${PROJECT_ROOT}/DataProcess Kit - 102Lab_resources/icon_16.png</file>
     </param.icons>
     <param.summary>102实验室步态数据处理与分析软件</param.summary>
-    <param.description>### v7.06
+    <param.description>### v7.07
+- 修复多选数据处理的变量名长度不等错误
+- 恢复一键数据处理功能
+- 修复多选数据的变量重命名错误
+
+### v7.06
 - 由2024a降级至2023b
 - 去除smoothdata函数
 
@@ -28,8 +33,8 @@
 ### v7.00
 - 添加BioMech界面，支持C3D和地反力导出为OpenSim支持的形式；
 - 地反力支持导出为原点力矩和COP两种形式；</param.description>
-    <param.screenshot>/private/var/folders/tj/kby7r__n6vldt88z3w7fpgh40000gn/T/tpc2223fce_6148_497b_9e0b_9ed313c652c6.jpg</param.screenshot>
-    <param.version>7.06</param.version>
+    <param.screenshot>/private/var/folders/tj/kby7r__n6vldt88z3w7fpgh40000gn/T/tp62742787_963c_4a0f_a458_2e780e3f748f.jpg</param.screenshot>
+    <param.version>7.07</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
