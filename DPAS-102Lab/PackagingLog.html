@@ -1,0 +1,77 @@
+<html>  
+<head>
+    <style>     
+        html{     
+        background-color: white;     
+        padding: 5px;     
+        width: 95%;     
+        }     
+        pre {     
+        overflow-x: auto;     
+        white-space: pre-wrap;     
+        white-space: -moz-pre-wrap;     
+        white-space: -pre-wrap;     
+        white-space: -o-pre-wrap;     
+        word-wrap: break-word;     
+        }     
+    </style>     
+    
+    <script type="text/javascript">     
+            
+            function setup(htmlComponent) {     
+            
+				htmlComponent.addEventListener("DataChanged", function(event) {     
+				scrollID =  htmlComponent.Data;     
+					if (scrollID != ''){
+						if(scrollID==="bottom"){         
+							scrollToBottom();     
+						} else if(scrollID==="DOWNLOAD_MCRINSTALLER" || scrollID==="BUILD_MISSING" || scrollID==="SAMPLE_GEN" || scrollID==="USER_REQUESTED_PACKAGE"){     
+							document.getElementById(scrollID).scrollIntoView(true);     
+						} else {     
+							//document.body.innerHTML = document.body.innerHTML + scrollID;     
+							document.body.appendChild(scrollID);                 
+							scrollToBottom();     
+						}    
+						htmlComponent.Data = '';
+					}		
+				});          
+            }     
+            function scrollToBottom(){     
+            var scrollingElement = (document.scrollingElement || document.body);     
+            scrollingElement.scrollTop = scrollingElement.scrollHeight;     
+            }     
+            
+    </script> 
+</head>
+ <body><meta charset="UTF-8">        
+ <pre><font color=blue>mcc -W 'webapp:DPAS-102Lab,CONFIG:/private/var/folders/tj/kby7r__n6vldt88z3w7fpgh40000gn/T/tpc29431ee_4229_4929_9bc9_88628f76ef1c.xml' -d /Users/jychen/Documents/Repos/102DAS/DPAS-102Lab -v -Z autodetect -C /Users/jychen/Documents/Repos/102DAS/DPAS_for_102Lab.mlapp</font>
+Compiler version: 23.2 (R2023b)
+Analyzing file dependencies. 
+Failed to load one or more dynamic libraries for OpenSim.
+java.lang.UnsatisfiedLinkError: /Applications/OpenSim 4.5/OpenSim 4.5.app/Contents/Resources/opensim/sdk/lib/libosimJavaJNI.dylib: dlopen(/Applications/OpenSim 4.5/OpenSim 4.5.app/Contents/Resources/opensim/sdk/lib/libosimJavaJNI.dylib, 0x0001): tried: '/Applications/OpenSim 4.5/OpenSim 4.5.app/Contents/Resources/opensim/sdk/lib/libosimJavaJNI.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/OpenSim 4.5/OpenSim 4.5.app/Contents/Resources/opensim/sdk/lib/libosimJavaJNI.dylib' (no such file), '/Applications/OpenSim 4.5/OpenSim 4.5.app/Contents/Resources/opensim/sdk/lib/libosimJavaJNI.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64'))
+<font color='orange'>警告: 当前不支持您的 Web App 中生成其他窗口的任何函数。请检查以下生成其他窗口的函数: errordlg,inputdlg,listdlg,msgbox,uisetcolor</font> 
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.depfun.internal.Manifest/saveas')" style="font-weight:bold">matlab.depfun.internal.Manifest/saveas</a>
+无效表达式。请检查缺失的乘法运算符、缺失或不对称的分隔符或者其他语法错误。要构造矩阵，请使用方括号而不是圆括号。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('compiler.internal.build.builder.Generic/build', '/Applications/MATLAB_R2023b.app/toolbox/compiler/cli/build/+compiler/+internal/+build/+builder/Generic.m', 83)" style="font-weight:bold">compiler.internal.build.builder.Generic/build</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/compiler/cli/build/+compiler/+internal/+build/+builder/Generic.m',83,0)">第 83 行</a>)
+            mcc(obj.MccInfo.MccInput{:})
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('compiler.build.webAppArchive', '/Applications/MATLAB_R2023b.app/toolbox/compiler/cli/build/+compiler/+build/webAppArchive.m', 92)" style="font-weight:bold">compiler.build.webAppArchive</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/compiler/cli/build/+compiler/+build/webAppArchive.m',92,0)">第 92 行</a>)
+resultsobj = builder.build;
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.internal.compiler.ui.deployProject', '/Applications/MATLAB_R2023b.app/toolbox/compiler/ui/package_dialog/+matlab/+internal/+compiler/+ui/deployProject.m', 111)" style="font-weight:bold">matlab.internal.compiler.ui.deployProject</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/compiler/ui/package_dialog/+matlab/+internal/+compiler/+ui/deployProject.m',111,0)">第 111 行</a>)
+[res] = evalc('try, [varargout] = compiler.build.webAppArchive(options); catch ME, exceptionInfo = ME; end');
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('compiler.internal.WebAppSharingStrategy/showProject', '/Applications/MATLAB_R2023b.app/toolbox/compiler/+compiler/+internal/WebAppSharingStrategy.m', 41)" style="font-weight:bold">compiler.internal.WebAppSharingStrategy/showProject</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/compiler/+compiler/+internal/WebAppSharingStrategy.m',41,0)">第 41 行</a>)
+                    matlab.internal.compiler.ui.deployProject(string(projectFullFile), [], false)
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.internal.deployment/AppSharingStrategy/share', '/Applications/MATLAB_R2023b.app/toolbox/matlab/apps/+matlab/+internal/+deployment/AppSharingStrategy.m', 35)" style="font-weight:bold">matlab.internal.deployment/AppSharingStrategy/share</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023b.app/toolbox/matlab/apps/+matlab/+internal/+deployment/AppSharingStrategy.m',35,0)">第 35 行</a>)
+            obj.showProject(projectFullFile);
+
+出错 connector.internal.fevalMatlab
+
+出错 connector.internal.fevalJSON
+} 
+
+<font color='red'>Error: could not add DEPFUN manifest to CTF archive.</font>
+</pre></body></html>
